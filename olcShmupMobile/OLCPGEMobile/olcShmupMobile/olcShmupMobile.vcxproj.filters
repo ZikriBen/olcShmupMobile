@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="android_native_app_glue.h" />
+    <ClInclude Include="olcPixelGameEngine_Mobile.h" />
+    <ClInclude Include="sse2neon.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="olcPGEX_MiniAudio.h" />
+    <ClInclude Include="miniaudio.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Spawn.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Explosion.h" />
+    <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="RetroMenu.h" />
+    <ClInclude Include="ScrollingStarsBG.h" />
+    <ClInclude Include="ZoomingStarsBG.h" />
+    <ClInclude Include="ZoomingStarsJavBG.h" />
+    <ClInclude Include="Difficulty.h" />
+    <ClInclude Include="PlayerMovement.h" />
+    <ClInclude Include="Artifact.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Explosion.cpp" />
+    <ClCompile Include="ScrollingStarsBG.cpp" />
+    <ClCompile Include="PlayerMovement.cpp" />
+  </ItemGroup>
+</Project>
